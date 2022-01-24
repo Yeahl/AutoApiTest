@@ -7,6 +7,6 @@ public class LoginTest {
 
     @Test
     public void loginTaobao(){
-        System.out.println("loginTest 运行了");
+        System.out.println("登陆成功了");
     }
 }
