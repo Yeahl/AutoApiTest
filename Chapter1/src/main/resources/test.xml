@@ -15,4 +15,10 @@
         </classes>
     </test>
 
+    <listeners>
+        <!-- <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter" /> 这是ExtentReport原监听器-->
+
+        <listener class-name="com.course.testng.testNGUtil.ExtentTestNGIReporterListener" />
+    </listeners>
+
 </suite>
